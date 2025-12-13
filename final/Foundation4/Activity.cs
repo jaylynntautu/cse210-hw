@@ -9,8 +9,15 @@ public class Activity
         _minutes = minutes;
     }
 
-    public string GetDate() => _date;
-    public int GetMinutes() => _minutes;
+    public string GetDate()
+    {
+        return _date;
+    }
+
+    public int GetMinutes()
+    {
+        return _minutes;
+    }
 
     public virtual double GetDistance()
     {

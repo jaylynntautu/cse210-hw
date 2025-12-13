@@ -7,6 +7,13 @@ public class Cycling : Activity
         _speed = speed;
     }
 
-    public override double GetSpeed() => _speed;
-    public override double GetPace() => 60 / _speed;
+    public override double GetSpeed()
+    {
+        return _speed;
+    }
+
+    public override double GetPace()
+    {
+        return 60 / _speed;
+    }
 }
